@@ -124,11 +124,12 @@ Baby.prototype.play = function () { return `Playing with ${this.favoriteToy}`}
 /* 
   TASK 4
 
+  
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global: This refers to the document or window when used it the global scope
+  2. Implicit: This bind to object left of the "." opererator.
+  3. New keyword: This is bound to a new object and that object is returned.
+  4. explict: Choosing what this is bound to by appending method calls with call, bind, or apply.
 */
 
 
